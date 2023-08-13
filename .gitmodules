@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/huyukuan/ykhu.github.io.git
+	branch = main
