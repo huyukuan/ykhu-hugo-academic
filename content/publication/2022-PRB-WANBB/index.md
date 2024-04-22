@@ -2,10 +2,10 @@
 title: Force-based gradient descent method for ab initio atomic structure relaxation
 authors:
 - admin
-- Xingyu Gao
-- Yafan Zhao
-- Xin Liu
-- Haifeng Song
+- X. Gao
+- Y. Zhao
+- X. Liu
+- H. Song
 date: "2022-09-01T00:00:00Z"
 doi: "10.1103/PhysRevB.106.104101"
 
@@ -19,16 +19,37 @@ doi: "10.1103/PhysRevB.106.104101"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Physical Review B*, 106(10): 104101"
+publication: "*Physical Review B*, 2022, 106(10): 104101"
 publication_short: ""
 
 abstract: Force-based algorithms for *ab initio* atomic structure relaxation, such as conjugate gradient methods, usually get stuck in the line minimization processes along search directions, where expensive *ab initio* calculations are triggered frequently to test trial positions before locating the next iterate. We present a force-based gradient descent method, WANBB, that circumvents the deficiency. At each iteration, WANBB enters the line minimization process with a trial step size capturing the local curvature of the energy surface. The exit is controlled by a nonrestrictive criterion that tends to accept early trials. These two ingredients streamline the line minimization process in WANBB. The numerical simulations on nearly 80 systems with good universality demonstrate the considerable compression of WANBB on the cost for the unaccepted trials compared with conjugate gradient methods. We also observe across the board significant and universal speedups as well as the superior robustness of WANBB over several widely used methods. The latter point is theoretically established. The implementation of WANBB is pretty simple, in that no a priori physical knowledge is required and only three parameters are present without tuning.
 
 # Summary. An optional shortened abstract.
-#summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: "We develop a force-based nonmonotone method for atomic structure relaxation, a ubiquitous yet expensive task in materials simulation and design. Conventional methods such as conjugate gradient methods are computationally robust but usually require a lengthy relaxation process, resulting in their inefficiency.
 
-tags:
-- Source Themes
+###### Method
+
+The inefficiency of conjugate gradient methods can be credited to the improper line minimization (LM) process therein. We devise a novel method named WANBB with an improved LM process, featuring
+
+- curvature-informed initial trial step sizes;
+
+- a reweighted nonmonotone line minimization criterion.
+
+
+The convergence of WANBB to equilibrium is also rigorously established.
+
+###### Results
+
+We test WANBB against conjugate gradient methods and quasi-Newton methods over a benchmark set containing nearly 80 systems with good universality. 
+
+- Convergence of WANBB on all systems (with a high-entropy alloy as demonstration).
+
+- Speedup factor over conjugate gradient methods > 1.5.
+
+### Important Note
+
+WANBB has been integrated into a suite for crystal structure relaxation called ProMe-SuRe, which can be interfaced to some widely used materials simulation software. **Static-link library files are available upon request!**"
+
 featured: false
 
 links:

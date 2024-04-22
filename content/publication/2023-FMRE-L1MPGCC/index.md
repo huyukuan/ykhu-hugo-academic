@@ -2,7 +2,7 @@
 title: The exactness of the $\ell_1$ penalty function for a class of mathematical programs with generalized complementarity constraints
 authors:
 - admin
-- Xin Liu
+- X. Liu
 date: "2023-05-11T00:00:00Z"
 doi: "10.1016/j.fmre.2023.04.006"
 
@@ -16,16 +16,25 @@ doi: "10.1016/j.fmre.2023.04.006"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Fundamental Research*, in press"
+publication: "*Fundamental Research*, available online"
 publication_short: ""
 
 abstract: In a Mathematical Program with Generalized Complementarity Constraints (MPGCC), complementarity relationships are imposed between each pair of variable blocks. MPGCC includes the traditional Mathematical Program with Complementarity Constraints (MPCC) as a special case. On account of the disjunctive feasible region, MPCC and MPGCC are generally difficult to handle. The $\ell_1$ penalty method, often adopted in computation, opens a way of circumventing the difficulty. Yet it remains unclear about the exactness of the $\ell_1$ penalty function, namely, whether there exists a sufficiently large penalty parameter so that the penalty problem shares the optimal solution set with the original one. In this paper, we consider a class of MPGCCs that are of multi-affine objective functions. This problem class finds applications in various fields, e.g., the multi-marginal optimal transport problems in many-body quantum physics and the pricing problems in network transportation. We first provide an instance from this class, the exactness of whose $\ell_1$ penalty function cannot be derived by existing tools. We then establish the exactness results under rather mild conditions. Our results cover those existing ones for MPCC and apply to multi-block contexts.
 
 # Summary. An optional shortened abstract.
-#summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: "We establish the exactness of $l_1$ penalty function for a class of mathematical programs with generalized complementarity constraints (MPGCC). MPGCC extends the notion of mathematical programs with complementarity constraints (MPCC), in that every two block variables complement each other. 
 
-tags:
-- Source Themes
+
+MP(G)CC is notorious for its violation of commonly used constraint qualifications (e.g., Mangasarian-Fromovitz constraint qualification), rendering the Karush-Kuhn-Tucker conditions no longer necessary. A simple treatment for this issue is to penalize the complementarity constraints in $l_1$ form. It is thus of importance to study the exactness of the penalty function, i.e., whether the penalty problem shares the same optimal solution set with the original one given a sufficiently large penalty parameter.
+
+###### Setting
+
+We focus our attention on a class of MPGCCs with multi-affine objective functions and separable polytopic feasible sets. The problem class applies to the network transportation and the understanding of strongly correlated quantum systems (see [our paper](https://huyukuan.github.io/publication/2023-sisc-mmot/) for details). Existing works either impose stringent assumptions or fail to cover the nonlinear and multi-block setting.
+
+###### Results
+
+Without extra assumptions, we establish the exactness by fully exploiting the problem structure."
+
 featured: false
 
 links:

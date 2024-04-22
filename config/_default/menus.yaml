@@ -7,21 +7,27 @@ main:
   - name: Home
     url: '#about'
     weight: 1
-  - name: Publications
-    url: '#publication'
+  - name: Research
+    url: '#research'
     weight: 2
-  - name: Patents
-    url: '#patent'
+  - name: Publications
+    url: '#publications'
     weight: 3
+  - name: Patents
+    url: '#patents'
+    weight: 4
   - name: Talks
     url: '#talks'
-    weight: 4
+    weight: 5
+  - name: Awards
+    url: '#awards'
+    weight: 6
   - name: Contact
     url: '#contact'
-    weight: 5
+    weight: 7
   - name: CV
-    url: uploads/resume_ykhu.pdf
-    weight: 6
+    url: uploads/CV_ykhu.pdf
+    weight: 8
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.

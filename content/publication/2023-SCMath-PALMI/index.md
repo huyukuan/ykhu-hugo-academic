@@ -2,8 +2,8 @@
 title: The convergence properties of infeasible inexact proximal alternating linearized minimization
 authors:
 - admin
-- Xin Liu
-date: "2023-05-17T00:00:00Z"
+- X. Liu
+date: "2023-09-26T00:00:00Z"
 doi: "10.1007/s11425-022-2074-7"
 
 # Schedule page publish date (NOT publication's date).
@@ -16,16 +16,24 @@ doi: "10.1007/s11425-022-2074-7"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Science China Mathematics*, in press"
+publication: "*Science China Mathematics*, 2023, 66(10): 2385-2410"
 publication_short: ""
 
 abstract: The proximal alternating linearized minimization (PALM) method suits well for solving block-structured optimization problems, which are ubiquitous in real applications. In the cases where subproblems do not have closed-form solutions, e.g., due to complex constraints, infeasible subsolvers are indispensable, giving rise to an infeasible inexact PALM (PALM-I). Numerous efforts have been devoted to analyzing the feasible PALM, while little attention has been paid to the PALM-I. The usage of the PALM-I thus lacks a theoretical guarantee. The essential difficulty of analysis consists in the objective value nonmonotonicity induced by the infeasibility. We study in the present work the convergence properties of the PALM-I. In particular, we construct a surrogate sequence to surmount the nonmonotonicity issue and devise an implementable inexact criterion. Based upon these, we manage to establish the stationarity of any accumulation point, and moreover, show the iterate convergence and the asymptotic convergence rates under the assumption of the Łojasiewicz property. The prominent advantages of the PALM-I on CPU time are illustrated via numerical experiments on problems arising from quantum physics and 3-dimensional anisotropic frictional contact.
 
 # Summary. An optional shortened abstract.
-#summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: "We study the theoretical properties of proximal alternating linearized minimization (PALM) method, which is a popular unified framework for multi-block nonconvex optimization.
 
-tags:
-- Source Themes
+###### Setting
+
+The subproblems are solved by infeasible subsolvers, yielding infeasible iterates. Examples are ubiquitous; for example, consider a feasible set described by a severely under-determined linear system. However, there are few existing works in this aspect. 
+
+###### Theoretical results
+
+- Implementable inexact criterion for solving subproblems based on error bounds.
+
+- Global convergence to stationarity and novel asymptotic convergence rates."
+
 featured: false
 
 links:
@@ -36,7 +44,7 @@ url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: 'uploads/PALM-I-2023-Aug11.pdf'
+url_slides: ''
 url_source: ''
 url_video: ''
 

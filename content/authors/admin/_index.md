@@ -24,18 +24,19 @@ organizations:
     url: https://english.cas.cn/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+#bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 # Interests to show in About widget
 interests:
   - Numerical Optimization
   - Computational Materials Science
+  - Machine Learning
 
 # Education to show in About widget
 education:
   courses:
     - course: B.Sc. in Mathematics and Applied Mathematics
-      institution: Tongji University, China
+      institution: Tongji University, Shanghai, China
       year: 2019
 
 # Social/Academic Networking
@@ -45,7 +46,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:ykhu@lsec.cc.ac.cn'
+    link: https://huyukuan.github.io/#contact
 #  - icon: twitter
 #    icon_pack: fab
 #    link: https://twitter.com/GeorgeCushen
@@ -73,7 +74,7 @@ social:
   # and uncomment the lines below.
 #  - icon: cv
 #    icon_pack: ai
-#    link: uploads/resume_ykhu.pdf
+#    link: uploads/CV_ykhu.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
@@ -82,6 +83,14 @@ email: ''
 highlight_name: true
 ---
 
-Yukuan Hu is a Ph.D. candidate of [Optimization Group](http://lsec.cc.ac.cn/~optim/) at Academy of Mathematics and Systems Science, Chinese Academy of Sciences, under the supervision of [Professor Xin Liu](http://lsec.cc.ac.cn/~liuxin/). He received the Bachelor degree (2019) in mathematics and applied mathematics at Tongji University. His current research interests focus on developing efficient numerical optimization methods with theoretical guarantees for scientific and engineering problems, especially those arising in computational materials science.
+I am a Ph.D. candidate of [Optimization Group](http://lsec.cc.ac.cn/~optim/) at Academy of Mathematics and Systems Science (AMSS), Chinese Academy of Sciences (CAS), under the supervision of [Professor Xin Liu](http://lsec.cc.ac.cn/~liuxin/). I received the Bachelor degree (2019) in Mathematics and Applied Mathematics at Tongji University. My research interests focus on developing numerical optimization methods for scientific and engineering applications. Recently, I have been working on the topics in computational materials science.
+
+# <i class="fa-solid fa-gear fa-spin fa-lg"></i> I am seeking a postdoctoral position starting from the summer of 2024. Please drop me a line if you have interest or recommendations!
+
+<div class="section-subheading"><i class="fa-solid fa-rss"></i> News</div>
+<ul class="ul-interests mb-2">
+  <li> Apr. 22, 2024: Our paper entitled "Sampling-based methods for multi-block optimization problems over transport polytopes" has been accepted in Mathematics of Computation.</li>
+  <li> Oct. 12-15, 2023: I have attended <a href="https://meeting.csiam.org.cn/#/2023/">the 21st Annual Meeting of CSIAM</a> held in Kunming, China and delivered a talk in the Topical Minisymposium entitled "Methods and Applications of Eigenvalue Calculations".</li>
+</ul>
 
 {style="text-align: justify;"}

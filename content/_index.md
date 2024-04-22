@@ -85,33 +85,33 @@ sections:
 #          url: ''
 #    design:
 #      columns: '2'
-#  - block: collection
-#    id: posts
-#    content:
-#      title: Recent Posts
-#      subtitle: ''
-#      text: ''
-#      # Choose how many pages you would like to display (0 = all pages)
-#      count: 5
-#      # Filter on criteria
-#      filters:
-#        folders:
-#          - post
-#        author: ""
-#        category: ""
-#        tag: ""
-#        exclude_featured: false
-#        exclude_future: false
-#        exclude_past: false
-#        publication_type: ""
-#      # Choose how many pages you would like to offset by
-#      offset: 0
-#      # Page order: descending (desc) or ascending (asc) date.
-#      order: desc
-#    design:
-#      # Choose a layout view
-#      view: compact
-#      columns: '2'
+  - block: collection
+    id: research
+    content:
+      title: Research
+      subtitle: ''
+      text: ''
+      # Choose how many pages you would like to display (0 = all pages)
+      count: 5
+      # Filter on criteria
+      filters:
+        folders:
+          - research
+        author: ""
+        category: ""
+        tag: ""
+        exclude_featured: false
+        exclude_future: false
+        exclude_past: false
+        publication_type: ""
+      # Choose how many pages you would like to offset by
+      offset: 0
+      # Page order: descending (desc) or ascending (asc) date.
+      order: asc
+    design:
+      # Choose a layout view
+      view: compact
+      columns: '2'
 #  - block: portfolio
 #    id: projects
 #    content:
@@ -159,13 +159,11 @@ sections:
 #      columns: '2'
 #      view: card
   - block: collection
-    id: publication
+    id: publications
     content:
-      title: Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
+      title: Recent Publications
+      more_link: publication
+      count: 5
       filters:
         folders:
           - publication
@@ -173,32 +171,56 @@ sections:
     design:
       columns: '2'
       view: citation
-  - block: collection
-    id: patent
+  - block: nonpub
+    id: patents
     content:
-      title: Patents
+      title: Patents & Copyrights
       filters:
         folders:
           - patent
         exclude_featured: true
     design:
       columns: '2'
-      view: citation
-  - block: collection
+      view: patent
+  - block: nonpub
     id: talks
     content:
-      title: Recent & Upcoming Talks
+      title: Selected Presentations
+      text: |-
+            | Time | Place | Conference | |
+            | ---- | ----- | --------------- |-|
+            | <div style="width: 50pt">Oct. 2023</div> | <div style="width: 90pt">Kunming, China</div> | [The 21st Annual Meeting of China Society for Industrial and Applied Mathematics](https://meeting.csiam.org.cn/#/2023/) |  |
+            | <div style="width: 50pt">Aug. 2023</div> | <div style="width: 90pt">Tokyo, Japan</div> | [The 10th International Congress on Industrial and Applied Mathematics](https://iciam2023.org/) | <a class="btn btn-outline-primary btn-sm" href="uploads/MMOTGGR-2023-Aug24.pdf" target="_blank" > <font size=2>Slides</font> </a> |
+            | Aug. 2023 | Taiyuan, China | [The 14th International Conference on Numerical Optimization and Numerical Linear Algebra](http://lsec.cc.ac.cn/~icnonla23/) | <a class="btn btn-outline-primary btn-sm" href="uploads/Sampling-MBOTP-2023-Aug15.pdf" target="_blank" > <font size=2>Slides</font> </a> |
+            | Jun. 2023 | Shanghai, China | [Applied Math Ph.D. Seminar at Fudan University](https://amphds.yingzhouli.com/about.html) | <a class="btn btn-outline-primary btn-sm" href="uploads/MMOT-Sampling-2023-Jun08.pdf" target="_blank" > <font size=2>Slides</font> </a> |
       filters:
         folders:
-          - event
+          - talk
     design:
       columns: '2'
-      view: card
+      view: talk
 #  - block: tag_cloud
 #    content:
 #      title: Popular Topics
 #    design:
 #      columns: '2'
+  - block: nonpub
+    id: awards
+    content:
+      title: Selected Awards
+      text: |-
+            | Year | Award | Presenter |
+            | --- | --- | --- |
+            | 2023 | AMSS Special Prize of President Scholarship (32k CNY) | AMSS, CAS | 
+            | 2023 | Financial Support Program | ICIAM 2023 |
+            | 2021, 2022 | Loo-Keng Hua Scholarship (100k CNY) | AMSS, CAS |
+            | 2019 | Excellent Graduation Thesis | Tongji University |
+      filters: 
+        folders:
+          - award
+    design: 
+      columns: '2'
+      view: award
   - block: contact
     id: contact
     content:
@@ -207,14 +229,14 @@ sections:
 #      text: |-
 #        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
       # Contact (add or remove contact options as necessary)
-      email: ykhu@lsec.cc.ac.cn
-      phone: (+86)18810512770
+      email: ykhu (AT) lsec.cc.ac.cn
+      phone: +86-18810512770
       #appointment_url: 'https://calendly.com'
       address:
         street: No. 55, Zhongguancun East Road, Haidian District
         city: Beijing
         region: 
-        postcode: '100190'
+        postcode: 100190
         country: China
         country_code: CN
       #directions: Enter Building 1 and take the stairs to Office 200 on Floor 2

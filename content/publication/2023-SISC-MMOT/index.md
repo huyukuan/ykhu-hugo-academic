@@ -2,8 +2,8 @@
 title: A global optimization approach for multimarginal optimal transport problems with Coulomb cost
 authors:
 - admin
-- Huajie Chen
-- Xin Liu
+- H. Chen
+- X. Liu
 date: "2023-06-12T00:00:00Z"
 doi: "10.1137/21M1455164"
 
@@ -17,16 +17,32 @@ doi: "10.1137/21M1455164"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*SIAM Journal on Scientific Computing*, 45(3): A1214--A1238"
+publication: "*SIAM Journal on Scientific Computing*, 2023, 45(3): A1214--A1238"
 publication_short: ""
 
 abstract: In this work, we construct a novel numerical method for solving the multimarginal optimal transport problems with Coulomb cost. This type of optimal transport problem arises in quantum physics and plays an important role in understanding the strongly correlated quantum systems. With a Monge-like ansatz, we transfer the original high-dimensional problems into mathematical programmings with generalized complementarity constraints, and thus the curse of dimensionality is surmounted. However, the latter ones are themselves hard to deal with from both theoretical and practical perspectives. Moreover, in the presence of nonconvexity, brute-force searching for global solutions becomes prohibitive as the problem size grows large. To this end, we propose a global optimization approach for solving the nonconvex optimization problems, by exploiting an efficient proximal block coordinate descent local solver and an initialization subroutine based on hierarchical grid refinements. We conduct numerical simulations on some typical physical systems to show the efficiency of our approach. The results match well with both theoretical predictions and physical intuitions and provide indications for Monge solutions in two-dimensional contexts. In addition, we give the first visualization of approximate optimal transport maps for some two-dimensional systems.
 
 # Summary. An optional shortened abstract.
-#summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: "We develop an optimization approach for the multimarginal optimal transport problems with Coulomb cost (MMOT), arising as the strong-interaction limit of density functional theory (DFT). This work may contribute to a better understanding of strongly correlated electrons systems, for which the conventional Kohn-Sham DFT induces large systematic errors.
 
-tags:
-- Source Themes
+###### Setting
+
+We consider the MMOT under a Monge-like ansatz. The Monge-like ansatz explicitly describes the coupling between electron positions, amounts to a spectacular dimension reduction, and generalizes the famous Monge ansatz in the OT community. When the number of electrons exceeds 2, the MMOT turns into a nonconvex optimization problem. As such, existing works employing the Monge-like ansatz limit the focus to two-electron systems. 
+
+###### Method
+
+We develop a global optimization approach for the nonconvex problem, featuring
+
+- initialization based on hierarchical grid refinements and OT background;
+
+- proximal alternating method as a local solver (please refer to [our paper](https://huyukuan.github.io/publication/2023-scmath-palmi/) for its convergence properties).
+
+###### Results
+
+- Simulation of typical systems with up to 7 electrons and over 10x the existing discretization scale. The results conform to theoretical predictions and physical intuitions.
+
+- First visualization of mappings between electron positions in two-dimensional context."
+
 featured: false
 
 links:
