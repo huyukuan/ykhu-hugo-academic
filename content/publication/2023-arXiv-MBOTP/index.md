@@ -18,7 +18,7 @@ doi: ""
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: "arXiv preprint, arXiv: 2306.16763"
+publication: "arXiv preprint, arXiv: 2306.16763 (accepted in Mathematics of Computation)"
 publication_short: ""
 
 abstract: The multimarginal optimal transport problem with Coulomb cost arises in quantum physics and is vital in understanding strongly correlated quantum systems. Its intrinsic curse of dimensionality can be overcome with a Monge-like ansatz. A nonconvex quadratic programmming then emerges after employing discretization and $\ell_1$ penalty. To globally solve this nonconvex problem, we adopt a grid refinements-based framework, in which a local solver is heavily invoked and hence significantly determines the overall efficiency. The block structure of this nonconvex problem suggests taking block coordinate descent-type methods as the local solvers, while the existing ones can get seriously afflicted with the poor scalability induced by the associated sparse-dense matrix multiplications. In this work, borrowing the tools from optimal transport, we develop novel methods that favor highly scalable schemes for subproblems and are completely free of the full matrix multiplications after introducing entrywise sampling. Convergence and asymptotic properties are built on the theory of random matrices. The numerical results on several typical physical systems corroborate the effectiveness and better scalability of our approach, which also allows the first visualization for the approximate optimal transport maps between electrons in three-dimensional contexts. 

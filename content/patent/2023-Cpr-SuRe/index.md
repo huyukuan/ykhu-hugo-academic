@@ -1,5 +1,5 @@
 ---
-title: 晶体结构弛豫软件包 ProMe-SuRe
+title: 晶体结构弛豫软件包 ProME-SuRe
 authors:
 - X. Gao
 - X. Liu
@@ -21,7 +21,7 @@ doi: ""
 # publication_types: ["8"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*CN Software Copyright*, application in progress"
+publication: "*CN Software Copyright*, 2023SR1558824, 2023"
 publication_short: ""
 
 # Summary. An optional shortened abstract.

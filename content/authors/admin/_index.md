@@ -85,11 +85,9 @@ highlight_name: true
 
 I am a Ph.D. candidate of [Optimization Group](http://lsec.cc.ac.cn/~optim/) at Academy of Mathematics and Systems Science (AMSS), Chinese Academy of Sciences (CAS), under the supervision of [Professor Xin Liu](http://lsec.cc.ac.cn/~liuxin/). I received the Bachelor degree (2019) in Mathematics and Applied Mathematics at Tongji University. My research interests focus on developing numerical optimization methods for scientific and engineering applications. Recently, I have been working on the topics in computational materials science.
 
-# <i class="fa-solid fa-gear fa-spin fa-lg"></i> I am seeking a postdoctoral position starting from the summer of 2024. Please drop me a line if you have interest or recommendations!
-
 <div class="section-subheading"><i class="fa-solid fa-rss"></i> News</div>
 <ul class="ul-interests mb-2">
-  <li> Apr. 22, 2024: Our paper entitled "Sampling-based methods for multi-block optimization problems over transport polytopes" has been accepted in Mathematics of Computation.</li>
+  <li> Apr. 22, 2024: Our paper entitled "<a href="https://huyukuan.github.io/publication/2023-arxiv-mbotp/">Sampling-based methods for multi-block optimization problems over transport polytopes</a>" has been accepted in <i>Mathematics of Computation</i>.</li>
   <li> Oct. 12-15, 2023: I have attended <a href="https://meeting.csiam.org.cn/#/2023/">the 21st Annual Meeting of CSIAM</a> held in Kunming, China and delivered a talk in the Topical Minisymposium entitled "Methods and Applications of Eigenvalue Calculations".</li>
 </ul>
 
