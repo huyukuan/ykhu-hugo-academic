@@ -87,7 +87,7 @@ I am a Ph.D. candidate of [Optimization Group](http://lsec.cc.ac.cn/~optim/) at 
 
 <div class="section-subheading"><i class="fa-solid fa-rss"></i> News</div>
 <ul class="ul-interests mb-2">
-  <li> Apr. 22, 2024: Our paper entitled "<a href="https://huyukuan.github.io/publication/2023-arxiv-mbotp/">Sampling-based methods for multi-block optimization problems over transport polytopes</a>" has been accepted in <i>Mathematics of Computation</i>.</li>
+  <li> Apr. 22, 2024: Our paper entitled "Sampling-based methods for multi-block optimization problems over transport polytopes" has been accepted in <i>Mathematics of Computation</i>.</li>
   <li> Oct. 12-15, 2023: I have attended <a href="https://meeting.csiam.org.cn/#/2023/">the 21st Annual Meeting of CSIAM</a> held in Kunming, China and delivered a talk in the Topical Minisymposium entitled "Methods and Applications of Eigenvalue Calculations".</li>
 </ul>
 
