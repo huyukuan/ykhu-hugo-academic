@@ -233,7 +233,7 @@ sections:
       phone: +86-18810512770
       #appointment_url: 'https://calendly.com'
       address:
-        street: No. 55, Zhongguancun East Road, Haidian District
+        street: No. 55, Zhongguancun East Road, Haidian District 
         city: Beijing
         region: 
         postcode: 100190
